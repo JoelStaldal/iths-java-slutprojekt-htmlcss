@@ -183,6 +183,10 @@ footer p {
         display: none;
     }
 
+    nav a:last-of-type {
+        display: block;
+    }
+
     nav svg:nth-of-type(2) {
         display: block;
     }
