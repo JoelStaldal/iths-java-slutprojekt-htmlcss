@@ -1,0 +1,104 @@
+body {
+    margin: 0; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60px 480px 380px;
+    grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main";
+    
+}
+
+nav {
+    grid-area: nav;
+    position: sticky;
+    top: 0;
+    background: rgb(58, 58, 58);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(214,214,214);
+    transition: color 300ms ease-in;
+}
+
+nav a:hover {
+    color: rgb(245, 245, 245);
+}
+
+nav svg {
+    width: 2rem;
+}
+
+nav .btn#menulogo {
+    display: none;
+}
+
+nav .btn#applelogo {
+    margin-right: auto;
+    fill: rgb(245, 245, 245);
+}
+
+nav svg:last-of-type {
+    margin-left: auto;
+}
+
+nav svg path {
+    fill: rgb(245, 245, 245);
+}
+
+header {
+    grid-area: header;
+    background: url(../img/andy-xu-7DOU5NlNIcE-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header input {
+    height: 2rem;
+    width: 20rem;
+    font-size: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-auto-rows: 150px;
+}
+
+main section {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        grid-template-columns: repeat(2, 150px);
+        grid-auto-rows: 150px;
+    }
+}
+
+
+
+

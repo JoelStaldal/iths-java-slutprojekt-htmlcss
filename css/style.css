@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 60px 480px minmax(320px, auto) 1280px 60px;
@@ -41,13 +40,13 @@ nav svg {
     width: 2rem;
 }
 
-nav svg:first-of-type {
-    margin-right: auto;
-    fill: rgb(245, 245, 245);
+nav .btn#menulogo {
+    display: none;
 }
 
-nav svg:nth-of-type(2) {
-    display: none;
+nav .btn#applelogo {
+    margin-right: auto;
+    fill: rgb(245, 245, 245);
 }
 
 nav svg:last-of-type {
@@ -183,11 +182,11 @@ footer p {
         display: none;
     }
 
-    nav a:last-of-type {
+    nav .btn#menulogo {
         display: block;
     }
 
-    nav svg:nth-of-type(2) {
+    nav .btn#applelogo {
         display: block;
     }
 
