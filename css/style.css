@@ -46,14 +46,18 @@ nav .btn#menulogo {
 
 nav .btn#applelogo {
     margin-right: auto;
-    fill: rgb(245, 245, 245);
 }
 
 nav svg:last-of-type {
     margin-left: auto;
 }
 
-nav svg path {
+nav svg path { 
+    fill: rgb(214,214,214);
+    transition: fill 300ms ease-in;
+}
+
+nav svg path:hover {
     fill: rgb(245, 245, 245);
 }
 
@@ -113,7 +117,9 @@ main article p {
     color: rgb(245, 245, 245);
     padding: 1rem;
     margin-top: -2rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
     font-family: 'Space Mono';
 }
 
@@ -202,6 +208,4 @@ footer p {
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 320px;
     }    
-
-
 }
