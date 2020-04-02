@@ -59,7 +59,7 @@ nav svg path {
 
 header {
     grid-area: header;
-    background: url(../img/applepic2.jpg);
+    background: url(../img/background_macbookpro.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -134,22 +134,22 @@ section article {
 }
 
 section article#box1 {
-    background-image: url(../img/applepic3.jpg);
+    background-image: url(../img/applepic_macbookpro.jpg);
     background-size: cover;
 }
 
 section article#box2 {
-    background-image: url(../img/applepic7.jpg);
+    background-image: url(../img/applepic_iphone.jpg);
     background-size: cover;
 }
 
 section article#box3 {
-    background-image: url(../img/applepic5_2.jpg);
+    background-image: url(../img/applepic_iphone_watch_macbookpro.jpg);
     background-size: cover;
 }
 
 section article#box4 {
-    background-image: url(../img/applepic6.jpg);
+    background-image: url(../img/applepic_iphone4.jpg);
     background-size: cover;
 }
 

@@ -59,7 +59,7 @@ nav svg path {
 
 header {
     grid-area: header;
-    background: url(../img/andy-xu-7DOU5NlNIcE-unsplash.jpg);
+    background: url(../img/background_applestore.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -160,6 +160,10 @@ footer {
         "main"
         "article"
         "footer";   
+    }
+
+    header {
+        background-position: center;
     }
 
     nav a {
