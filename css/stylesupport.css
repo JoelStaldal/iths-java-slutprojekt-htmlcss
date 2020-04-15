@@ -48,7 +48,7 @@ nav .btn#applelogo {
     margin-right: auto;
 }
 
-nav svg:last-of-type {
+nav .btn#searchlogo {
     margin-left: auto;
 }
 
@@ -66,7 +66,7 @@ header {
     background: url(../img/background_applestore.jpg);
     background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -75,6 +75,14 @@ header input {
     height: 2rem;
     width: 20rem;
     font-size: 20px;
+}
+
+header svg {
+    height: 2rem;
+    width: 2rem;
+    background: white;
+    position: relative;
+    left: 2.5rem;
 }
 
 main {
@@ -95,6 +103,7 @@ main section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 main section p {
@@ -104,7 +113,6 @@ main section p {
 main section img {
     height: 100%;
 }
-
 
 article {
     grid-area: article;
@@ -179,6 +187,10 @@ footer {
     }
 
     nav .btn#applelogo {
+        display: block;
+    }
+
+    nav .btn#searchlogo {
         display: block;
     }
 

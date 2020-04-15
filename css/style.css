@@ -48,7 +48,7 @@ nav .btn#applelogo {
     margin-right: auto;
 }
 
-nav svg:last-of-type {
+nav .btn#searchlogo {
     margin-left: auto;
 }
 
@@ -116,10 +116,10 @@ main article h2 {
 main article p {
     color: rgb(245, 245, 245);
     padding: 1rem;
-    margin-top: -2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-top: -3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
     font-family: 'Space Mono';
 }
 
@@ -193,6 +193,10 @@ footer p {
     }
 
     nav .btn#applelogo {
+        display: block;
+    }
+
+    nav .btn#searchlogo {
         display: block;
     }
 
