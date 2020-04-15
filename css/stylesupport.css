@@ -61,6 +61,10 @@ nav svg path:hover {
     fill: rgb(245, 245, 245);
 }
 
+nav .btn#searchlogo path[style]:hover {
+    stroke: rgb(245, 245, 245) !important;
+}
+
 header {
     grid-area: header;
     background: url(../img/background_applestore.jpg);
